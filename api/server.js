@@ -38,6 +38,7 @@ server.use(session({
     maxAge: 1000 * 60 * 60,
     secure: false,
     httpOnly: true,
+    // sameSite: 'none',
   }
 
 }))
